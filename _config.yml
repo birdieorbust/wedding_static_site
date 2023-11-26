@@ -1,6 +1,6 @@
 # Site settings
-#theme: jekyll-theme-easy-wedding
-remote_theme: cnorick/jekyll-theme-easy-wedding@0.1.23
+theme: jekyll-theme-easy-wedding
+#remote_theme: cnorick/jekyll-theme-easy-wedding@0.1.23
 title: Hannah & Sam
 email: sam.dc.hall@gmail.com
 url:  # Be sure to include http:// or https://
