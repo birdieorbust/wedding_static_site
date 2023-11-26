@@ -1,0 +1,34 @@
+hero_image: photos/penny_fan.jpg
+hero_position: center center
+mobile_hero_image: photos/croatia.jpg
+mobile_hero_position: center center
+
+
+theme:
+  # text_color: '#404040'
+  # primary_color: '#d98560'
+  secondary_color: '#a2a183'
+  #accent_color: '#fff'
+  background_color: '#fff' 
+
+rsvp:
+  use_code: true
+  code: 1234
+  code_md5: 81dc9bdb52d04dc20036dbd8313ed055
+  post_address: https://script.google.com/macros/s/AKfycbwi82taGjOXBn28_bmD3pyx__cZvFkTFf3VZwtLh2IKClZ_mY9fOzdcSoBTzpHIs0Rz/exec
+  api_key: 
+  code_location: You can put the code on the back of your RSVP card, or turn off this functionality all together. The code for this sample is 1234
+  yes_text: I'll be there
+  no_text: I can't make it
+  no_extra_guests_message: As much as we would love to have everyone, please only include guests that were listed on your invitation
+  submit_text: RSVP
+  cancel_text: Cancel
+  yes_modal_title: Thank You!
+  no_modal_title: Thank You!
+  yes_modal_body: We're glad that you've decided to celebrate with us on our wedding day!
+  no_modal_body: We really wish you could have made it, but we still love you. <span class="fa fa-heart"></span>
+  sms_followup_text: You'll receive a text confirmation shortly.
+  # Comment these out to disable
+  song_text: What songs will get you dancing?
+  leave_a_message_text: Leave a message for the bride and groom.
+  dietary_requirements: Do you have any dietary requirements?

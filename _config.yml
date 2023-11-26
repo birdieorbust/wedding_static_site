@@ -1,0 +1,33 @@
+# Site settings
+#theme: jekyll-theme-easy-wedding
+remote_theme: cnorick/jekyll-theme-easy-wedding@0.1.23
+title: Hannah & Sam
+email: sam.dc.hall@gmail.com
+url:  # Be sure to include http:// or https://
+description: "Hannah and Sam are getting married and we want you to celebrate with us! "
+baseurl: ""
+
+collections:
+  stories:
+    sort_by: order
+  banners:
+
+sass:
+  style: compressed
+
+defaults:
+  - scope:
+      path: "photos/"
+    values:
+      image: true
+  - scope:
+      type: banners
+    values:
+      layout: banner
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - _compress_images_cache.yml

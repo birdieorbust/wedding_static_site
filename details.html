@@ -1,0 +1,11 @@
+---
+layout: info
+title: Details
+include: details.html
+billboard_image: assets/img/bell.jpg
+
+---
+
+{% if page.include %}
+  {% include {{ page.include }} %}
+{% endif %}

@@ -1,0 +1,54 @@
+<section class="container content-section text-center">
+    <div class="row justify-content-center">
+      <div class="col-lg-offset-2 col-lg-8">    
+        <h2>Need to Knows</h2>
+        <p>
+          As you may have noticed already our ceremony is being held in Parkstone whilst our venue will be held in a little parish in North Dorset called Shillingstone.
+          This means there will be a 40 minute journey to undertake from the church to get to our wedding reception venue and hence the afternoon's procedings will start from 2.30pm.
+          To help eases logistics we will be putting on a bus from the church to Shillingstone. 
+          </p>
+        </p>
+        <a href="https://www.google.com/maps/dir/Wellington+Road,+Poole+BH14+9LF/Shillingstone+House,+Shillingstone+House,+Shillingstone,+Blandford+Forum/@50.8171971,-2.0585004,11z/data=!4m14!4m13!1m5!1m1!1s0x4873a1396cc4894b:0x7d301c5efc2413ac!2m2!1d-1.9394014!2d50.721696!1m5!1m1!1s0x4873b352877d821f:0xc670e7b113dc2830!2m2!1d-2.2522799!2d50.8973549!3e0?entry=ttu">Directions</a>
+      </div>
+  </section>
+  <section class="container content-section text-center">
+    <div class="row justify-content-center">
+      <div class="col-lg-offset-2 col-lg-8">
+        <h2>Where to Stay</h2>
+        <p> If you are staying the night or more, then here are a few options with regards to accomodation...</p>
+        <strong>1. Stay near Shillingstone</strong>
+        <ul>
+            <li>Shillingston is set in epitome of English countryside and if you want to stay clear of the hustle and bustle then there are plenty of Airbnbs local to Shillingstone. Blandford Forum is also 10 minute journey away and boasts hotels like The Crown.
+                <a href="https://www.shillingstonehouse.co.uk/accomodation-and-pubs">The Shillingstone House website has some ideas</a>
+            </li>
+            <br>
+            <li>The chosen venue also supports camping and campervans should you wish to stay the night at the venue. You will not be rushed off on Sunday and have access to the toilet facilities as these don't get taken away till Monday.<strong>If you should wish to do this please let us know in the RSPV so we can gauge numbers.</strong></li>
+        </ul>
+        <br>
+        <strong>2. Stay in Poole / Bournemouth</strong>
+        <p>
+            If you are staying longer than one night you may want to be in accessible distance to the beach and towns.
+        </p>
+        <strong>
+            Be mindful that Bournemouth and Poole is a UK summer holiday destinations and with our wedding being in school holidays the area will be busier and more expensive than usual.
+            However at the time of writing we found plenty of smaller places on Airbnb and due to being built up you'll have access to plenty of hotels in the area
+          </strong>
+        <div class="row">
+          {% for hotel in site.hotels.chi %}
+            <div class="col-sm-6 ">
+              {% include hotel_thumbnail.html hotel=hotel %}
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="container content-section text-center">
+    <div class="row justify-content-center">
+      <div class="col-lg-offset-2 col-lg-8">
+        <h2 id="getting-around">Carriages</h2>
+        <p>We are making sure to book some minibuses to take people home on Saturday evening but we'd expect guests to contribute to this.
+            Our plan is to stagger them from 10pm.
+        </p>
+  </section>

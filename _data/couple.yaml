@@ -1,0 +1,8 @@
+spouse1: 
+  short_name: Sam
+  long_name: Sam Hall
+  role: Husband
+spouse2:
+  short_name: Hannah
+  long_name: Hannah Ridge
+  role: Wife
