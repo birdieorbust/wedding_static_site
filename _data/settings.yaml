@@ -15,7 +15,7 @@ rsvp:
   use_code: true
   code: 1234
   code_md5: 81dc9bdb52d04dc20036dbd8313ed055
-  post_address: https://script.google.com/macros/s/AKfycbzxcQlaLbU4WiQuAltyWJ2U8NaIas7s452fwkAZMP1_QW8jkTb28HsNz6T6meqPaQNV/exec
+  post_address: https://script.google.com/macros/s/AKfycbySOO8VsP0HJOjZUwavN33RqX4vneEzoehtvAibA7Fo-o9Iq9AuBoR5zcRf_sRDjtRb/exec
   api_key: 
   code_location: You can put the code on the back of your RSVP card, or turn off this functionality all together. The code for this sample is 1234
   yes_text: I'll be there
