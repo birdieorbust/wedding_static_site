@@ -15,7 +15,7 @@ rsvp:
   use_code: true
   code: 1234
   code_md5: 81dc9bdb52d04dc20036dbd8313ed055
-  post_address: https://script.google.com/macros/s/AKfycbwi82taGjOXBn28_bmD3pyx__cZvFkTFf3VZwtLh2IKClZ_mY9fOzdcSoBTzpHIs0Rz/exec
+  post_address: https://script.google.com/macros/s/AKfycbzxcQlaLbU4WiQuAltyWJ2U8NaIas7s452fwkAZMP1_QW8jkTb28HsNz6T6meqPaQNV/exec
   api_key: 
   code_location: You can put the code on the back of your RSVP card, or turn off this functionality all together. The code for this sample is 1234
   yes_text: I'll be there
@@ -27,7 +27,7 @@ rsvp:
   no_modal_title: Thank You!
   yes_modal_body: We're glad that you've decided to celebrate with us on our wedding day!
   no_modal_body: We really wish you could have made it, but we still love you. <span class="fa fa-heart"></span>
-  sms_followup_text: You'll receive a text confirmation shortly.
+  sms_followup_text: You'll receive a email confirmation shortly.
   # Comment these out to disable
   song_text: What songs will get you dancing?
   leave_a_message_text: Leave a message for the bride and groom.
