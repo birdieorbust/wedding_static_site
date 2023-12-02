@@ -42,6 +42,13 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
+      # added a dump pages config block for debugging the base url on GH pages
+      - name: Dump Pages configuration
+        run: |
+          echo PAGES_BASE_URL:  ${{ steps.pages.outputs.base_url }}
+          echo PAGES_ORIGIN:    ${{ steps.pages.outputs.origin }}
+          echo PAGES_HOST:      ${{ steps.pages.outputs.host }}
+          echo PAGES_BASE_PATH: ${{ steps.pages.outputs.base_path }}
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: |
