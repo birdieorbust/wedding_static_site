@@ -57,6 +57,7 @@ function createPostData(form) {
         phone: formData.phone,
         songs: formData.song,
         attending: formData.rsvpRadio === "yes",
+        campaing: formData.campingRadio === "yes",
         dietary_requirements: formData.dietary_requirements,
         message: formData.message,
         code: formData.invite_code

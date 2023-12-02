@@ -83,6 +83,15 @@ RSVP
       </div>
     {% endif %}
 
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="campingRadio" id="camping-yes" value="yes" required>
+      <label class="form-check-label" for="camping-yes">I would be interested in camping at the venue</label>
+    </div>
+    <div class="form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="campingRadio" id="camping-no" value="no" required>
+      <label class="form-check-label" for="camping-no">Camping is not for me</label>
+    </div>
+    
     {% if site.data.settings.rsvp.leave_a_message_text %}
       <div class="input-group">
         <span class="input-group-text"><i class="fa fa-envelope"></i></span>
