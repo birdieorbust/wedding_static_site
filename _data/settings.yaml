@@ -17,7 +17,7 @@ rsvp:
   code_md5: 81dc9bdb52d04dc20036dbd8313ed055
   post_address: https://script.google.com/macros/s/AKfycbySOO8VsP0HJOjZUwavN33RqX4vneEzoehtvAibA7Fo-o9Iq9AuBoR5zcRf_sRDjtRb/exec
   api_key: 
-  code_location: You can put the code on the back of your RSVP card, or turn off this functionality all together. The code for this sample is 1234
+  code_location: You'll find this code on the back of your paper copy of the RSVP invite. 
   yes_text: I'll be there
   no_text: I can't make it
   no_extra_guests_message: As much as we would love to have everyone, please only include guests that were listed on your invitation

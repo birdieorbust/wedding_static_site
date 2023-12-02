@@ -2,8 +2,8 @@
 #  link: /#ourstory
 - name: Details
   link: /details
-#- name: FAQ
-#  link: /faq
+- name: FAQ
+  link: /faq
 #- name: Photos
 #  link: /photo-gallery
 #- name: Gift List
