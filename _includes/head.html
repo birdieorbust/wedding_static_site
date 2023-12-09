@@ -7,6 +7,9 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="icon" href="{{ "/assets/img/favicon.png?v=1.0" | prepend: site.baseurl }}">
 
+    <!-- Prevent all search engines crawling the site that follow noindex -->
+    <meta name="robots" content="noindex">
+
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <meta property="og:type" content="website">

@@ -13,8 +13,8 @@ theme:
 
 rsvp:
   use_code: true
-  code: 1234
-  code_md5: 81dc9bdb52d04dc20036dbd8313ed055
+  code: 100824
+  code_md5: d868f520adb4aaa159c339a52df7e449
   post_address: https://script.google.com/macros/s/AKfycbySOO8VsP0HJOjZUwavN33RqX4vneEzoehtvAibA7Fo-o9Iq9AuBoR5zcRf_sRDjtRb/exec
   api_key: 
   code_location: You'll find this code on the back of your paper copy of the RSVP invite. 

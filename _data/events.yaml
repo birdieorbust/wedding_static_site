@@ -1,9 +1,9 @@
 - name: Wedding Ceremony
   main_event: true
   attire: Wedding Smart
-  date: 2023-08-10 12:00:00
-  endDate: 2023-08-10 13:00:00
-  description: Our wedding ceremony will held at St Lukes Church in Parkstone. Hannah picked this as it was her local church growing up. Oh and let's not forget the fact it's opposite her Mum and Dad's house!
+  date: 2024-08-10 12:00:00 −04:00
+  endDate: 2024-08-10 13:00:00 −04:00
+  description: Our wedding ceremony will held at St Lukes Church in Parkstone. Hannah picked this as this was her familly church when growing up.
   transportation:
   shuttle:
   location:
@@ -18,9 +18,9 @@
 
 - name: Wedding Reception
   attire: Wedding Smart
-  date: 2023-08-10 14:30:00 −04:00
-  endDate: 2023-08-10 23:30:00 -04:00
-  description: Set in the stunning grounds of Shillingstone House Hannah and Sam welcome you to celebrate with them in Luxury Marquee style. Catering is to be provided by Dorset Fine Dining and live entertainment will be present from 7. 
+  date: 2024-08-10 14:00:00 −04:00
+  endDate: 2024-08-10 23:30:00 -04:00
+  description: Set in the stunning grounds of Shillingstone House, Hannah and Sam welcome you to celebrate with them in marquee style. Catering will be provided and live entertainment will be present from 7pm. 
   transportation:
   shuttle:
   location:
@@ -32,19 +32,3 @@
     google_maps_url: https://www.google.com/maps/place/Shillingstone+House/@50.8972928,-2.2521838,15z/data=!4m2!3m1!1s0x0:0xc670e7b113dc2830
     venue_name:
   calendar_description: Hannah and Sam's Wedding Reception
-
-#- name: Post Wedding Brunch
-#  main_event: false
-#  attire: Casual
-#  date: 2023-08-11 12:00:00 −04:00
-#  endDate: 2023-08-11 15:00:00 -04:00
-#  description: Hannah's great at calling in favours and one of her best friends mum has offered her Garden for brunch on Sunday.
-#  location:
-#    address: Shillingstone House
-#    city: Blandford Forum
-#    state: Dorset
-#    zip: DT11 0QR
-#    coordinates: 50.8972928,-2.2521838
-#    google_maps_url: https://www.google.com/maps/place/Shillingstone+House/@50.8972928,-2.2521838,15z/data=!4m2!3m1!1s0x0:0xc670e7b113dc2830
-#    venue_name:
-#  calendar_description: Hannah and Sam's Wedding Sunday Post Wedding Brunch
