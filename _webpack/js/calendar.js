@@ -4,8 +4,8 @@ export function createAddToCalendarButton(data, buttonId) {
     docReady(() => {
         const myCalendar = createCalendar({
             options: {
-                title: '',
-                class: '',
+                title: "",
+                class: "",
             },
             data
         });

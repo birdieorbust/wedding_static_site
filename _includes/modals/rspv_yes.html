@@ -19,7 +19,7 @@
 <script>
     const myCalendar = createAddToCalendarButton({
       // Event title
-      title: "{{ eventTitle | escape }}",
+      title: "🥂 {{ eventTitle | escape }}",
 
       // Event start date
       start: new Date(Number("{{ main_event.date | date: '%s' }}") * 1000),
@@ -35,7 +35,7 @@
       address: "{{ main_event.location.address }} {{ main_event.location.city }}, {{ main_event.location.state }} {{ main_event.location.zip }}",
 
       // Event Description
-      description: "{{ main_event.calendar_description}} \n\nWebsite: {{site.url}}"
+      description: "{{ main_event.calendar_description}} \n\nWebsite: https://www.hannahandsamgetmarried.co.uk"
     },
       'add-to-cal',
     );

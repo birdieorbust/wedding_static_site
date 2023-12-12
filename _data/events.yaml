@@ -1,13 +1,13 @@
 - name: Wedding Ceremony
   main_event: true
   attire: Wedding Smart
-  date: 2024-08-10 12:00:00 −04:00
-  endDate: 2024-08-10 13:00:00 −04:00
+  date: 2024-08-10 12:00:00 −00:00
+  endDate: 2024-08-10 13:00:00 −00:00
   description: Our wedding ceremony will held at St Lukes Church in Parkstone. Hannah picked this as this was her familly church when growing up.
   transportation:
   shuttle:
   location:
-    address: St Luke's Church
+    address: St Luke\'s Church
     city: Parkstone
     state: Dorset
     zip: BH14 9LF
@@ -18,8 +18,8 @@
 
 - name: Wedding Reception
   attire: Wedding Smart
-  date: 2024-08-10 14:00:00 −04:00
-  endDate: 2024-08-10 23:30:00 -04:00
+  date: 2024-08-10 14:00:00 −00:00
+  endDate: 2024-08-10 23:30:00 -00:00
   description: Set in the stunning grounds of Shillingstone House, Hannah and Sam welcome you to celebrate with them in marquee style. Catering will be provided and live entertainment will be present from 7pm. 
   transportation:
   shuttle:
