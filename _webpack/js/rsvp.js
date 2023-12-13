@@ -51,6 +51,7 @@ function createPostData(form) {
     return {
         name1: formData.name1,
         contact_email: formData.contact_email,
+        contact_email2: formData.contact_email2,
         name2: formData.name2,
         name3: formData.name3,
         name4: formData.name4,

@@ -32,7 +32,7 @@
       end: new Date(Number("{{ main_event.endDate | date: '%s' }}") * 1000),
 
       // Event Address
-      address: "{{ main_event.location.address }} {{ main_event.location.city }}, {{ main_event.location.state }} {{ main_event.location.zip }}",
+      address: "{{ main_event.location.address | escape }} {{ main_event.location.city | escape }}, {{ main_event.location.state }} {{ main_event.location.zip }}",
 
       // Event Description
       description: "{{ main_event.calendar_description}} \n\nWebsite: https://www.hannahandsamgetmarried.co.uk"
