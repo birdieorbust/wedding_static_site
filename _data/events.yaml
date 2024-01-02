@@ -14,7 +14,7 @@
     coordinates: 50.7212803, -2.02282
     google_maps_url: https://www.google.com/maps/place/St+Luke's+Church/@50.7213127,-1.9429946,17z/data=!3m1!4b1!4m6!3m5!1s0x4873a1399d94af05:0xd622080fda169206!8m2!3d50.7213093!4d-1.9404197!16s%2Fg%2F1tp26r2w
     venue_name: St Luke's Church
-  calendar_description: Hannah and Sam's Wedding Ceremony
+  calendar_description: Hannah and Sam's Wedding Ceremony. Day guests from 12pm, evening guests from 7pm.
 
 - name: Wedding Reception
   attire: Wedding Smart
@@ -31,4 +31,4 @@
     coordinates: 50.8972928,-2.2521838
     google_maps_url: https://www.google.com/maps/place/Shillingstone+House/@50.8972928,-2.2521838,15z/data=!4m2!3m1!1s0x0:0xc670e7b113dc2830
     venue_name:
-  calendar_description: Hannah and Sam's Wedding Reception
+  calendar_description: Hannah and Sam's Wedding Reception, evening guests from 7pm.

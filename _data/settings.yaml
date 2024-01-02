@@ -15,7 +15,7 @@ rsvp:
   use_code: true
   code: 100824
   code_md5: d868f520adb4aaa159c339a52df7e449
-  post_address: https://script.google.com/macros/s/AKfycbwIOSsjWXYWHzq-LmqvU0vqFS3Clty4776EEZnl1DCFg8CLwL2GxysUOwDGos7J9rhh/exec
+  post_address: https://script.google.com/macros/s/AKfycbwGAyQQnPnIVrlR16qccuGlX2UdKzwjNYPq1bEITYlGWnKX_798PIHATj2dzWprccgK/exec
   api_key: 
   code_location: You'll find this code on the back of your paper copy of the RSVP invite. 
   yes_text: I'll be there
