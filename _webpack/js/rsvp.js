@@ -14,6 +14,8 @@ async function rsvp(form, alertWrapper, inviteCodeElement, rsvpModal, rsvpYesMod
     } else {
         const data = createPostData(form);
         try {
+            // disable rspv button until response is made
+            document.getElementById("rspv-form-submit").disabled = true;
             await makeRsvpPost(data);
             alertWrapper.innerHTML = '';
             rsvpModal.hide();
@@ -24,6 +26,7 @@ async function rsvp(form, alertWrapper, inviteCodeElement, rsvpModal, rsvpYesMod
                 rsvpNoModal.show();
             }
         } catch (e) {
+            document.getElementById("rspv-form-submit").disabled = false;
             alertWrapper.innerHTML = alert_markup('danger', '<strong>Sorry!</strong> There is some issue with the server.');
             console.error(e);
         }
@@ -42,6 +45,7 @@ async function makeRsvpPost(data) {
     });
 
     if (!response.ok) {
+        document.getElementById("rspv-form-submit").disabled = true;
         throw new Error(`Error making RSVP POST: ${response.status} ${response.statusText}`);
     }
 }
