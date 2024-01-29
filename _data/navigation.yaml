@@ -6,7 +6,7 @@
   link: /faq
 #- name: Photos
 #  link: /photo-gallery
-#- name: Gift List
-#  link: https://www.johnlewis.com/wish-list/TFWQMQF?tmcampid=7&tmad=c&s_share=jlappios_wishlist_bmV0LndoYXRzYXBwLldoYXRzQXBwLlNoYXJlRXh0ZW5zaW9u
+- name: Gift List
+  link: /gifts
 - name: RSVP
   modal_id: rsvp-modal
